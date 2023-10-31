@@ -17,3 +17,7 @@ To test out the execution, perform the following steps:
 This should generate a `testing.i6` file. Now you can do this:
 
 * `inform6 -G projects/testing.i6`
+
+You can also generate an Index:
+
+* `inform7 -internal ./Internal -basic projects/testing.i7 -index`

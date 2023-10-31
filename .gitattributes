@@ -25,6 +25,7 @@
 *.intest         text eol=lf
 *.interb         text eol=lf
 *.interpipeline  text eol=lf
+*.indext         text eol=lf
 *.preform        text eol=lf
 *.w              text eol=lf
 *.i6t            text eol=lf

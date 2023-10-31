@@ -1,0 +1,6 @@
+:root {
+	--informdefault-fontfamily: sans-serif;
+	--informmonospaced-fontfamily: monospace;
+	--informcode-fontfamily: monospace;
+	--informcommand-fontfamily: serif;
+}
