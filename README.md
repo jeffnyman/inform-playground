@@ -28,3 +28,7 @@ You can also create a full project.
 * Create a `Source` directory within that and create a `story.ni` file within that.
 * Make sure there is a `uuid.txt` file in the main directory.
 * Run the following: `inform7 -internal ./Internal -project projects/Testing.inform -basic -index`
+
+To try a full compile of the project that is generated:
+
+* `inform6 -wSDG +include_path=projects/Testing.inform/Source,. projects/Testing.inform/Build/auto.inf projects/Testing.inform/Build/output.ulx`
