@@ -14,4 +14,6 @@ To test out the execution, perform the following steps:
 * Create a `testing.i7`` file in that directory.
 * Run the following: `inform7 -internal ./Internal -basic projects/testing.i7`
 
-This should generate a `testing.i6` file.
+This should generate a `testing.i6` file. Now you can do this:
+
+* `inform6 -G projects/testing.i6`
