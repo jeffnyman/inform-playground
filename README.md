@@ -21,3 +21,10 @@ This should generate a `testing.i6` file. Now you can do this:
 You can also generate an Index:
 
 * `inform7 -internal ./Internal -basic projects/testing.i7 -index`
+
+You can also create a full project.
+
+* Create a `Testing.inform` directory in the projects directory.
+* Create a `Source` directory within that and create a `story.ni` file within that.
+* Make sure there is a `uuid.txt` file in the main directory.
+* Run the following: `inform7 -internal ./Internal -project projects/Testing.inform -basic -index`
